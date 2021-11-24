@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>save.svg</file>
+        <file>print-alt.svg</file>
+    </qresource>
+</RCC>
