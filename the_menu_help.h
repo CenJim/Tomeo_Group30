@@ -11,6 +11,10 @@ private:
     QAction* registerAction;
 public:
     HelpMenu(const QString &title);
-
+public slots:
+    // display help
+    void help();
+    // display guide
+    void moreInfo();
 };
 #endif // THE_MENU_HELP_H

@@ -26,6 +26,10 @@ private:
     QMenu *subtitlesMenu = new QMenu;
 public:
     ToolsMenu(const QString &title);
+public slots:
+    void viewMetaData();
+    void viewFullScreen();
+    void viewMinimumScreen();
 };
 
 #endif // THE_MENU_TOOLS_H
