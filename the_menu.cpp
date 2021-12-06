@@ -33,6 +33,7 @@ void TheMenu::makeConnections(){
     connect(fileMenu,SIGNAL(openFile_triggered()),this,SIGNAL(openFile_is_triggered()));
     connect(fileMenu,SIGNAL(save_triggered()),this,SIGNAL(save_is_triggered()));
     connect(fileMenu,SIGNAL(share_triggered()),this,SIGNAL(share_is_triggered()));
+    connect(fileMenu,SIGNAL(close_triggered()),this,SIGNAL(close_is_triggered()));
 
     // Edited by Shruti Naik
     connect(toolsMenu,SIGNAL(fullScreen_triggered()), this,SIGNAL(fullScreen_is_triggered()));

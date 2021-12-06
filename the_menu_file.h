@@ -22,6 +22,7 @@ signals:
     void openFile_triggered();
     void save_triggered();
     void share_triggered();
+    void close_triggered();
 };
 
 #endif // THE_MENU_FILE_H

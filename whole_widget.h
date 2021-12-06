@@ -36,6 +36,8 @@ public slots:
 
     // Edited by Shruti Naik
     void minimumWindowShow();
+
+    void closeAll();
 };
 
 #endif // WHOLE_WIDGET_H

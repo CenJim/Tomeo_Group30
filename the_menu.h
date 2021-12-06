@@ -38,6 +38,7 @@ signals:
     void minimizeScreen_is_triggered();
 
     void mute_is_triggered();
+    void close_is_triggered();
 
 public:
     TheMenu();

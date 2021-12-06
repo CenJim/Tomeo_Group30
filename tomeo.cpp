@@ -347,6 +347,7 @@ int main(int argc, char *argv[]) {
     QObject::connect(theMenu,SIGNAL(openFile_is_triggered()),&window,SLOT(openFile()));
     QObject::connect(theMenu,SIGNAL(save_is_triggered()),&window,SLOT(save()));
     QObject::connect(theMenu,SIGNAL(share_is_triggered()),shareButton,SLOT(share()));
+    QObject::connect(theMenu,SIGNAL(close_is_triggered()),&window,SLOT(closeAll()));
 
     // Edited by Shruti Naik
     QObject::connect(theMenu,SIGNAL(fullScreen_is_triggered()),&window,SLOT(fullwindowShow()));

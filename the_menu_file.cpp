@@ -35,4 +35,5 @@ void FileMenu::makeConnections(){
     connect(saveasAction,SIGNAL(triggered()),this,SIGNAL(save_triggered()));
     connect(exportAction,SIGNAL(triggered()),this,SIGNAL(save_triggered()));
     connect(shareAction,SIGNAL(triggered()),this,SIGNAL(share_triggered()));
+    connect(closeallAction,SIGNAL(triggered()),this,SIGNAL(close_triggered()));
 }

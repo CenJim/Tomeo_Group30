@@ -59,3 +59,7 @@ void whole_widget::minimumWindowShow() {
     minimumScreenWidget->resize(500, 320);
     minimumScreenWidget->show();
 }
+
+void whole_widget::closeAll(){
+    close();
+}
